@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice to Text</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Harsh Creations</h1>
+        <div class="navbar">
+            <a href="#" class="nav-item">Home</a>
+            <a href="#" class="nav-item">Purpose</a>
+            <a href="#" class="nav-item">Help Desk</a>
+            <a href="#" class="nav-item">About</a>
+        </div>
+        <div class="notice">
+            <marquee behavior="scroll" direction="left" scrollamount="5">
+                Note: Recent Name Will Be Cleared After Refresh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Created By: Harsh Kumar Sharma&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LinkedIn: <a href="https://www.linkedin.com/in/harshrsh/">https://www.linkedin.com/in/harshrsh/</a>
+            </marquee>
+        </div>
+        <div class="dark-mode-toggle">
+            <label class="switch">
+                <input type="checkbox" id="dark-mode-switch">
+                <span class="slider round"></span>
+            </label>
+            <span>Dark Mode</span>
+        </div>
+    </header>
+    <div class="container">
+        <div class="language-select">
+            <label for="language">Choose Language:</label>
+            <select id="language">
+                <option value="en-US">English</option>
+                <option value="hi-IN">Hindi</option>
+            </select>
+        </div>
+        
+        <div class="main-content">
+            <div class="controls">
+                <button id="start-btn">Start Listening</button>
+                <p id="result">Your voice input will appear here...</p>
+                <button id="copy-btn" style="display: none;">Copy to Clipboard</button>
+            </div>
+            <div class="history">
+                <h2>Transcription History</h2>
+                <ul id="history-list"></ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Contact Information</p>
+        <p>Email: harsh.rshh@example.com</p>
+        <p>Phone: +91 9798531147</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
